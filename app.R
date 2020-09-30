@@ -1,9 +1,7 @@
 #### SETUP ####
 
 # Imports
-library(dplyr)
 library(readr)
-
 library(leaflet)
 library(shiny)
 library(shinydashboard)
