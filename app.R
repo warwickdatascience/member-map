@@ -1,6 +1,7 @@
 #### SETUP ####
 
 # Imports
+library(conflicted)
 library(readr)
 library(leaflet)
 library(shiny)
@@ -8,6 +9,7 @@ library(shinydashboard)
 library(shinyWidgets)
 
 # Conflict handling
+# N/A
 
 #### GLOBAL ####
 
