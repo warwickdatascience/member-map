@@ -50,6 +50,7 @@ ui <- dashboardPage(
   ),
   dashboardSidebar(disable = TRUE),
   dashboardBody(
+    tags$head(tags$link(rel = "shortcut icon", href = "favicon.ico")),
     tags$link(rel = 'stylesheet', type = 'text/css', href = 'style.css'),
     tags$style(paste0("@import url(https://use.fontawesome.com/releases/",
                       "v5.7.2/css/all.css);")),
